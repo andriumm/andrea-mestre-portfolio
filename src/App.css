@@ -49,9 +49,15 @@
 .h2 {
 	font-family: "Syne Mono", monospace;
 }
+h6 {
+	color: #808000;
+}
 
 p {
 	text-align: justify;
+}
+li {
+	list-style: square;
 }
 
 .App-link {

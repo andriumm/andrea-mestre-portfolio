@@ -7,6 +7,10 @@ export default function Experience() {
 		e.preventDefault();
 		setShowMore(true);
 	};
+	const handleShowLess = (e) => {
+		e.preventDefault();
+		setShowMore(false);
+	};
 
 	return (
 		<div>
@@ -24,7 +28,8 @@ export default function Experience() {
 							the last 4 years in international environments, currently willing
 							to work on the "other side" of a software company. I'd like to
 							keep working both in Backend and Frontend to improve my skills in
-							JavaScript, React.js, Node.js and Express.js.{" "}
+							JavaScript, React.js, Node.js and Express.js (open to learn
+							different technologies of course). ... And yes! I love cats!{" "}
 						</p>
 						<div className="text-center my-4">
 							<a
@@ -78,6 +83,9 @@ export default function Experience() {
 										develop a standard recruitment process that works
 										cross-location (Hamburg, Porto, Valencia and Barcelona).
 									</li>
+									<li>
+										Support in HR, Employer Branding and Office Management.
+									</li>
 								</ul>
 							</div>
 							<div>
@@ -112,9 +120,73 @@ export default function Experience() {
 							<div>
 								<h6 className="d-inline-flex mx-4 my-4">RECRUITER</h6>
 								<p className="d-inline-flex">(oct'15 - oct'16)</p>
+								<ul>
+									<li>
+										Recruitment of payroll specialists, tax advisors, layers,
+										interns and some recruitment consultancy for clients.
+										(automotive, chemical, IT, etc).
+									</li>
+								</ul>
+								<div>
+									{!showMore && (
+										<div className="text-center my-4 ">
+											<button
+												onClick={handleShowMore}
+												type="button"
+												className="btn btn-outline-dark"
+											>
+												Show more &#8595;
+											</button>
+										</div>
+									)}
+
+									{showMore && (
+										<div>
+											<div>
+												<h6 className="d-inline-flex mx-4 my-4">
+													COSTUMER SERVICE AGENT
+												</h6>
+												<p className="d-inline-flex">(oct'13 - apr'16)</p>
+												<ul>
+													<p>Working for the English and Spanish market:</p>
+													<li>
+														Take incoming customer calls (via telephone, email,
+														voicemail, or other automated alerts) and solve
+														users' demands related to orders (complaints,
+														refunds, recommendations, etc.).
+													</li>
+													<li>
+														Maintain service and product knowledge and expertise
+														associated with applications specific to individual
+														customers.
+													</li>
+													<li>
+														In the last 6 months, I assumed some coordinator
+														tasks for the weekend team.
+													</li>
+												</ul>
+											</div>
+											<div>
+												<h6 className="d-inline-flex mx-4 my-4">
+													PSHYCOLOGIST Intern
+												</h6>
+												<p className="d-inline-flex">
+													(various Internships between sep'11 - jun'14)
+												</p>
+											</div>
+											<div className="text-center my-4 ">
+												<button
+													onClick={handleShowLess}
+													type="button"
+													className="btn btn-outline-dark"
+												>
+													Show less &#8593;
+												</button>
+											</div>
+										</div>
+									)}
+								</div>
 							</div>
-							<button>See more</button>
-							{showMore && <div></div>}
 						</div>
 						<div className="mx-4 my-4 border-bottom">
 							<h3 className="font-monospace">Education</h3>
@@ -150,17 +222,17 @@ export default function Experience() {
 							<p className="btn btn-dark me-4">React.js</p>
 							<p className="btn btn-dark me-4">Node.js</p>
 							<p className="btn btn-dark me-4">Express.js</p>
-							<h5 className="font-monospace">Coming</h5>
+							<h5 className="font-monospace my-4">Coming</h5>
 							<p className="btn btn-dark disabled me-4">Testing</p>
 							<p className="btn btn-dark disabled me-4">Docker</p>
 							<p className="btn btn-dark disabled me-4">GraphQL</p>
-							<p className="btn btn-dark disabled me-4">Redux</p>
+							<p className="btn btn-dark disabled mb-4 me-4">Redux</p>
 						</div>
 						<div className="mx-4 my-4">
 							<h3 className="font-monospace">
 								A glimpse of my culture company values
 							</h3>
-							<h6 className="mx-4 my-4 fw-light lh-lg">
+							<h6 className="mx-4 my-4 fw-light lh-lg text-dark">
 								If you have some time left and you want to know more about the
 								values I persuit in my working environment you can take a look
 								to a couple of short articles I wrote while I was a tech
