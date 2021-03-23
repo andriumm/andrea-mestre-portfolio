@@ -14,16 +14,16 @@ export default function Experience() {
 
 	return (
 		<div>
-			<div class="container" className="">
+			<div className="">
 				<div className="row">
-					<div className="col-3 mx-4 my-4">
+					<div className="col-3 mx-4 my-4 text-center">
 						<img
 							src="./images/profile_draw.jpg"
-							className="mb-4 ms-5"
+							className="mb-4  text-center"
 							id="profile_pic"
 						/>
 						<h3 className="font-monospace text-center">About me</h3>
-						<p className="mx-4 my-4 fw-light lh-lg">
+						<p className="ms-4 my-4 fw-light lh-lg">
 							Now, FullStack developer! With a tech recruitment background for
 							the last 4 years in international environments, currently willing
 							to work on the "other side" of a software company. I'd like to
@@ -64,7 +64,7 @@ export default function Experience() {
 						</div>
 					</div>
 
-					<div className="col mx-4 my-4 border-start">
+					<div className="col mx-4 my-4 border-start fw-light lh-lg">
 						<div className="mx-4 border-bottom">
 							<h3 className="font-monospace">Background</h3>
 							<div>
@@ -191,42 +191,48 @@ export default function Experience() {
 						<div className="mx-4 my-4 border-bottom">
 							<h3 className="font-monospace">Education</h3>
 							<div>
-								<p className="d-inline-flex mx-4 my-4">
-									2021 &emsp;&ensp;&ensp;&ensp;{" "}
-								</p>
-								<h6 className="d-inline-flex mx-4 my-4">
+								<h6 className="d-inline-flex mx-4 mt-4 mb-2">
 									Fullstack Development Bootcamp
+									<span>
+										<p className="ms-2 text-dark fw-light">( 2021 )</p>
+									</span>
 								</h6>
 
-								<p className="d-inline-flex mx-3"> CodeOp</p>
+								<p className="d-inline-flex"> CodeOp</p>
 							</div>
 							<div>
-								<p className="d-inline-flex mx-4 my-4">2007-2011</p>
-								<h6 className="d-inline-flex mx-4 my-4">
+								<h6 className="d-inline-flex mx-4 my-2">
 									Master about Family violence prevention and management
+									<span>
+										<p className="ms-2 text-dark fw-light"> ( 2007-2011 )</p>
+									</span>
 								</h6>
 
-								<p className="d-inline-flex mx-3">
-									IL3 - Universitat de Barcelona
-								</p>
+								<p className="d-inline-flex">IL3 - Universitat de Barcelona</p>
 							</div>
 							<div>
-								<p className="d-inline-flex mx-4 my-4">2007-2011</p>
-								<h6 className="d-inline-flex mx-4 my-4">Psychology</h6>
-								<p className="d-inline-flex mx-3">Universitat de Barcelona</p>
+								<h6 className="d-inline-flex mx-4 mt-2 mb-4">
+									Psychology
+									<span>
+										<p className="ms-2 text-dark fw-light">( 2007-2011 )</p>
+									</span>
+								</h6>
+								<p className="d-inline-flex">Universitat de Barcelona</p>
 							</div>
 						</div>
 						<div className="mx-4 my-4 border-bottom">
-							<h3 className="font-monospace">Stack</h3>
-							<p className="btn btn-dark me-4">JavaScript</p>
-							<p className="btn btn-dark me-4">React.js</p>
-							<p className="btn btn-dark me-4">Node.js</p>
-							<p className="btn btn-dark me-4">Express.js</p>
-							<h5 className="font-monospace my-4">Coming</h5>
-							<p className="btn btn-dark disabled me-4">Testing</p>
-							<p className="btn btn-dark disabled me-4">Docker</p>
-							<p className="btn btn-dark disabled me-4">GraphQL</p>
-							<p className="btn btn-dark disabled mb-4 me-4">Redux</p>
+							<h3 className="font-monospace mb-4">Stack</h3>
+							<div className="mx-4 mb-4">
+								<p className="btn btn-dark me-4">JavaScript</p>
+								<p className="btn btn-dark me-4">React.js</p>
+								<p className="btn btn-dark me-4">Node.js</p>
+								<p className="btn btn-dark me-4">Express.js</p>
+								<h5 className="font-monospace my-4">Coming</h5>
+								<p className="btn btn-dark disabled me-4">Testing</p>
+								<p className="btn btn-dark disabled me-4">Docker</p>
+								<p className="btn btn-dark disabled me-4">GraphQL</p>
+								<p className="btn btn-dark disabled  me-4">Redux</p>
+							</div>
 						</div>
 						<div className="mx-4 my-4">
 							<h3 className="font-monospace">
@@ -238,7 +244,7 @@ export default function Experience() {
 								to a couple of short articles I wrote while I was a tech
 								recruiter.
 							</h6>
-							<div className="mx-4">
+							<div>
 								<a
 									href="https://newwork-es.medium.com/be-yourself-e05c48bf1629"
 									target="_blank"
