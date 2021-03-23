@@ -235,14 +235,13 @@ export default function Experience() {
 							</div>
 						</div>
 						<div className="mx-4 my-4">
-							<h3 className="font-monospace">
-								A glimpse of my culture company values
-							</h3>
+							<h3 className="font-monospace">Articles</h3>
 							<h6 className="mx-4 my-4 fw-light lh-lg text-dark">
 								If you have some time left and you want to know more about the
 								values I persuit in my working environment you can take a look
 								to a couple of short articles I wrote while I was a tech
-								recruiter.
+								recruiter that reflect the kind of company I feel comfortable
+								with.
 							</h6>
 							<div>
 								<a

@@ -12,6 +12,7 @@
 }
 #profile_pic {
 	height: 30vmin;
+	height: 15vmax;
 	pointer-events: none;
 	justify-content: center;
 }
@@ -57,7 +58,9 @@ p {
 	text-align: justify;
 }
 li {
-	list-style: square;
+	list-style-type: none; /*"\2714"*/
+
+	padding-right: 4rem;
 }
 
 .App-link {
