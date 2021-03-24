@@ -37,6 +37,7 @@ export default function Experience() {
 								href="https://www.linkedin.com/in/andreamestremedina/"
 								target="_blank"
 								className="mx-4"
+								rel="linkedin"
 							>
 								<img
 									className="logo"
@@ -48,6 +49,7 @@ export default function Experience() {
 								href="https://github.com/andriumm"
 								target="_blank"
 								className="mx-4"
+								rel="github"
 							>
 								<img
 									className="logo"
@@ -60,6 +62,7 @@ export default function Experience() {
 									className="logo"
 									src="./images/email.png"
 									alt="email icon"
+									rel="email"
 								/>
 							</a>
 						</div>
@@ -249,6 +252,7 @@ export default function Experience() {
 									href="https://newwork-es.medium.com/be-yourself-e05c48bf1629"
 									target="_blank"
 									className="btn btn-outline-dark mx-4"
+									rel="article1"
 								>
 									Be Yourself
 								</a>
@@ -256,6 +260,7 @@ export default function Experience() {
 									href="https://newwork-es.medium.com/hard-conversations-hard-interviews-89ef8237d34"
 									target="_blank"
 									className="btn btn-outline-dark"
+									rel="article2"
 								>
 									Hard conversations, hard interviews
 								</a>
