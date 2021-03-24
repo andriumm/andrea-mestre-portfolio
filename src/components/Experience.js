@@ -21,6 +21,7 @@ export default function Experience() {
 							src="./images/profile_draw.jpg"
 							className="mb-4  text-center"
 							id="profile_pic"
+							alt="profilePicture"
 						/>
 						<h3 className="font-monospace text-center">About me</h3>
 						<p className="ms-4 my-4 fw-light lh-lg">
