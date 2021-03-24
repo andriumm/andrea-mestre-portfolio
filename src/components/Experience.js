@@ -112,6 +112,19 @@ export default function Experience() {
 							<div>
 								<h6 className="d-inline-flex mx-4 my-4">TECH RECRUITER</h6>
 								<p className="d-inline-flex">(mar'19 - dec'20)</p>
+								<a
+									href="https://www.new-work.se/en/career/barcelona"
+									target="_blank"
+									className="mx-4"
+									rel="newWork"
+								>
+									<img
+										className="logo"
+										src="./images/newWork.png"
+										alt="New Work"
+										rel="newWork"
+									/>
+								</a>
 								<ul>
 									<li>Job posts, Active sourcing, Screening, HR interviews.</li>
 									<li>
@@ -134,6 +147,19 @@ export default function Experience() {
 									IT RECRUITER CONSULTANT
 								</h6>
 								<p className="d-inline-flex">(sep'17 - feb'19)</p>
+								<a
+									href="https://akuaro.com/"
+									target="_blank"
+									className="mx-4"
+									rel="akuaro"
+								>
+									<img
+										className="logo"
+										src="./images/Akuaro.png"
+										alt="Akuaro"
+										rel="akuaro"
+									/>
+								</a>
 								<ul>
 									<li>
 										Working on several recruitment processes for different
@@ -151,6 +177,19 @@ export default function Experience() {
 									RECRUITER CONSUTLANT
 								</h6>
 								<p className="d-inline-flex">(nov'16 - sep'17)</p>
+								<a
+									href="https://www.mur-partners.com/en/"
+									target="_blank"
+									className="mx-4"
+									rel="murandmarti"
+								>
+									<img
+										className="logo"
+										src="./images/murandpartners.png"
+										alt="murandmarti"
+										rel="murandmarti"
+									/>
+								</a>
 								<ul>
 									<li>
 										Recruitment consultant for engineering companies
@@ -159,15 +198,6 @@ export default function Experience() {
 								</ul>
 							</div>
 							<div>
-								<h6 className="d-inline-flex mx-4 my-4">RECRUITER</h6>
-								<p className="d-inline-flex">(oct'15 - oct'16)</p>
-								<ul>
-									<li>
-										Recruitment of payroll specialists, tax advisors, layers,
-										interns and some recruitment consultancy for clients.
-										(automotive, chemical, IT, etc).
-									</li>
-								</ul>
 								<div>
 									{!showMore && (
 										<div className="text-center my-4 ">
@@ -184,10 +214,47 @@ export default function Experience() {
 									{showMore && (
 										<div>
 											<div>
+												<h6 className="d-inline-flex mx-4 my-4">RECRUITER</h6>
+												<p className="d-inline-flex">(oct'15 - oct'16)</p>
+												<a
+													href="https://www.gdhumancapital.com/"
+													target="_blank"
+													className="mx-4"
+													rel="GDHumanCapital"
+												>
+													<img
+														className="logo"
+														src="./images/GDHumanCapital.png"
+														alt="GDHumanCapital"
+														rel="GDHumanCapitalmarti"
+													/>
+												</a>
+												<ul>
+													<li>
+														Recruitment of payroll specialists, tax advisors,
+														layers, interns and some recruitment consultancy for
+														clients. (automotive, chemical, IT, etc).
+													</li>
+												</ul>
+											</div>
+											<div>
 												<h6 className="d-inline-flex mx-4 my-4">
 													CUSTOMER SERVICE AGENT
 												</h6>
 												<p className="d-inline-flex">(oct'13 - apr'16)</p>
+												<a
+													href="https://webhelp.com//"
+													target="_blank"
+													className="mx-4"
+													rel="Sellbytel"
+												>
+													<img
+														className="logo"
+														src="./images/Sellbytel.png"
+														alt="Sellbytel"
+														rel="Sellbytel"
+													/>
+												</a>
 												<ul>
 													<p>Working for the English and Spanish market:</p>
 													<li>
