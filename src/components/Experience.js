@@ -25,12 +25,12 @@ export default function Experience() {
 						/>
 						<h3 className="font-monospace text-center">About me</h3>
 						<p className="ms-4 my-4 fw-light lh-lg">
-							Now, FullStack developer! With a tech recruitment background for
-							the last 4 years in international environments, currently willing
-							to work on the "other side" of a software company. Working both in
-							Backend and Frontend to improve my skills in JavaScript, React.js,
-							Node.js and Express.js (open to learn different technologies of
-							course). ... And yes! I love cats!{" "}
+							Now, FullStack developer! After being focused on tech recruitment
+							for the last 4 years in international environments, currently
+							willing to work on the "other side" of a software company. Working
+							both in Backend and Frontend to improve my skills in JavaScript,
+							React.js, Node.js and Express.js. Always open to learn different
+							technologies of course. ... And yes! I love cats!{" "}
 						</p>
 						<div className="mx-4 my-4">
 							<h3 className="font-monospace">Articles</h3>
@@ -101,10 +101,10 @@ export default function Experience() {
 								<p className="btn btn-dark me-4">Node.js</p>
 								<p className="btn btn-dark me-4">Express.js</p>
 								<h5 className="font-monospace my-4">Coming</h5>
-								<p className="btn btn-dark disabled me-4">Testing</p>
-								<p className="btn btn-dark disabled me-4">Docker</p>
-								<p className="btn btn-dark disabled me-4">GraphQL</p>
-								<p className="btn btn-dark disabled  me-4">Redux</p>
+								<p className="btn btn-dark btn-sm disabled me-4">Testing</p>
+								<p className="btn btn-dark btn-sm disabled me-4">Docker</p>
+								<p className="btn btn-dark btn-sm disabled me-4">GraphQL</p>
+								<p className="btn btn-dark btn-sm disabled  me-4">Redux</p>
 							</div>
 						</div>
 						<div className="mx-4 border-bottom">
