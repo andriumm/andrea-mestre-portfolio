@@ -27,11 +27,35 @@ export default function Experience() {
 						<p className="ms-4 my-4 fw-light lh-lg">
 							Now, FullStack developer! With a tech recruitment background for
 							the last 4 years in international environments, currently willing
-							to work on the "other side" of a software company. I'd like to
-							keep working both in Backend and Frontend to improve my skills in
-							JavaScript, React.js, Node.js and Express.js (open to learn
-							different technologies of course). ... And yes! I love cats!{" "}
+							to work on the "other side" of a software company. Working both in
+							Backend and Frontend to improve my skills in JavaScript, React.js,
+							Node.js and Express.js (open to learn different technologies of
+							course). ... And yes! I love cats!{" "}
 						</p>
+						<div className="mx-4 my-4">
+							<h3 className="font-monospace">Articles</h3>
+							<h6 className="mx-4 my-4 fw-light lh-lg text-dark">
+								If you have some time left...
+							</h6>
+							<div>
+								<a
+									href="https://newwork-es.medium.com/be-yourself-e05c48bf1629"
+									target="_blank"
+									className="btn btn-outline-dark mb-4 mx-4"
+									rel="article1"
+								>
+									Be Yourself
+								</a>
+								<a
+									href="https://newwork-es.medium.com/hard-conversations-hard-interviews-89ef8237d34"
+									target="_blank"
+									className="btn btn-outline-dark"
+									rel="article2"
+								>
+									Hard conversations, hard interviews
+								</a>
+							</div>
+						</div>
 						<div className="text-center my-4">
 							<a
 								href="https://www.linkedin.com/in/andreamestremedina/"
@@ -69,13 +93,26 @@ export default function Experience() {
 					</div>
 
 					<div className="col mx-4 my-4 border-start fw-light lh-lg">
+						<div className="mx-4 my-4 border-bottom">
+							<h3 className="font-monospace mb-4">Stack</h3>
+							<div className="mx-4 mb-4">
+								<p className="btn btn-dark me-4">JavaScript</p>
+								<p className="btn btn-dark me-4">React.js</p>
+								<p className="btn btn-dark me-4">Node.js</p>
+								<p className="btn btn-dark me-4">Express.js</p>
+								<h5 className="font-monospace my-4">Coming</h5>
+								<p className="btn btn-dark disabled me-4">Testing</p>
+								<p className="btn btn-dark disabled me-4">Docker</p>
+								<p className="btn btn-dark disabled me-4">GraphQL</p>
+								<p className="btn btn-dark disabled  me-4">Redux</p>
+							</div>
+						</div>
 						<div className="mx-4 border-bottom">
 							<h3 className="font-monospace">Background</h3>
 							<div>
 								<h6 className="d-inline-flex mx-4 my-4">TECH RECRUITER</h6>
 								<p className="d-inline-flex">(mar'19 - dec'20)</p>
 								<ul>
-									<li>Tech recruitment for Barcelona office.</li>
 									<li>Job posts, Active sourcing, Screening, HR interviews.</li>
 									<li>
 										Interview Trainer encouraging our teams to manage technical
@@ -148,7 +185,7 @@ export default function Experience() {
 										<div>
 											<div>
 												<h6 className="d-inline-flex mx-4 my-4">
-													COSTUMER SERVICE AGENT
+													CUSTOMER SERVICE AGENT
 												</h6>
 												<p className="d-inline-flex">(oct'13 - apr'16)</p>
 												<ul>
@@ -172,7 +209,7 @@ export default function Experience() {
 											</div>
 											<div>
 												<h6 className="d-inline-flex mx-4 my-4">
-													PSHYCOLOGIST Intern
+													PSHYCOLOGY Intern
 												</h6>
 												<p className="d-inline-flex">
 													(various Internships between sep'11 - jun'14)
@@ -222,48 +259,6 @@ export default function Experience() {
 									</span>
 								</h6>
 								<p className="d-inline-flex">Universitat de Barcelona</p>
-							</div>
-						</div>
-						<div className="mx-4 my-4 border-bottom">
-							<h3 className="font-monospace mb-4">Stack</h3>
-							<div className="mx-4 mb-4">
-								<p className="btn btn-dark me-4">JavaScript</p>
-								<p className="btn btn-dark me-4">React.js</p>
-								<p className="btn btn-dark me-4">Node.js</p>
-								<p className="btn btn-dark me-4">Express.js</p>
-								<h5 className="font-monospace my-4">Coming</h5>
-								<p className="btn btn-dark disabled me-4">Testing</p>
-								<p className="btn btn-dark disabled me-4">Docker</p>
-								<p className="btn btn-dark disabled me-4">GraphQL</p>
-								<p className="btn btn-dark disabled  me-4">Redux</p>
-							</div>
-						</div>
-						<div className="mx-4 my-4">
-							<h3 className="font-monospace">Articles</h3>
-							<h6 className="mx-4 my-4 fw-light lh-lg text-dark">
-								If you have some time left and you want to know more about the
-								values I persuit in my working environment you can take a look
-								to a couple of short articles I wrote while I was a tech
-								recruiter that reflect the kind of company I feel comfortable
-								with.
-							</h6>
-							<div>
-								<a
-									href="https://newwork-es.medium.com/be-yourself-e05c48bf1629"
-									target="_blank"
-									className="btn btn-outline-dark mx-4"
-									rel="article1"
-								>
-									Be Yourself
-								</a>
-								<a
-									href="https://newwork-es.medium.com/hard-conversations-hard-interviews-89ef8237d34"
-									target="_blank"
-									className="btn btn-outline-dark"
-									rel="article2"
-								>
-									Hard conversations, hard interviews
-								</a>
 							</div>
 						</div>
 					</div>
