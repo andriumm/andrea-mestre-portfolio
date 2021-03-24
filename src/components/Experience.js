@@ -306,7 +306,19 @@ export default function Experience() {
 									</span>
 								</h6>
 
-								<p className="d-inline-flex"> CodeOp</p>
+								<a
+									href="https://codeop.tech/"
+									target="_blank"
+									className="mx-4"
+									rel="CodeOp"
+								>
+									<img
+										className="logo"
+										src="./images/CodeOp.png"
+										alt="CodeOp"
+										rel="CodeOp"
+									/>
+								</a>
 							</div>
 							<div>
 								<h6 className="d-inline-flex mx-4 my-2">
@@ -315,8 +327,19 @@ export default function Experience() {
 										<p className="ms-2 text-dark fw-light"> ( 2007-2011 )</p>
 									</span>
 								</h6>
-
-								<p className="d-inline-flex">IL3 - Universitat de Barcelona</p>
+								<a
+									href="https://www.il3.ub.edu/ca/estudiants"
+									target="_blank"
+									className="mx-4"
+									rel="IL3"
+								>
+									<img
+										className="logo"
+										src="./images/IL3.png"
+										alt="IL3"
+										rel="IL3"
+									/>
+								</a>
 							</div>
 							<div>
 								<h6 className="d-inline-flex mx-4 mt-2 mb-4">
@@ -325,7 +348,19 @@ export default function Experience() {
 										<p className="ms-2 text-dark fw-light">( 2007-2011 )</p>
 									</span>
 								</h6>
-								<p className="d-inline-flex">Universitat de Barcelona</p>
+								<a
+									href="https://www.il3.ub.edu/ca/estudiants"
+									target="_blank"
+									className="mx-4"
+									rel="UB"
+								>
+									<img
+										className="logo"
+										src="./images/UB.png"
+										alt="UB"
+										rel="UB"
+									/>
+								</a>
 							</div>
 						</div>
 					</div>
