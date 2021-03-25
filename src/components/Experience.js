@@ -100,15 +100,63 @@ export default function Experience() {
 								<p className="btn btn-dark me-4">React.js</p>
 								<p className="btn btn-dark me-4">Node.js</p>
 								<p className="btn btn-dark me-4">Express.js</p>
+								<p className="btn btn-dark me-4">MySQL</p>
+								<p className="btn btn-dark me-4">HTML</p>
+								<p className="btn btn-dark me-4">CSS</p>
 								<h5 className="font-monospace my-4">Coming</h5>
 								<p className="btn btn-dark btn-sm disabled me-4">Testing</p>
 								<p className="btn btn-dark btn-sm disabled me-4">Docker</p>
 								<p className="btn btn-dark btn-sm disabled me-4">GraphQL</p>
 								<p className="btn btn-dark btn-sm disabled  me-4">Redux</p>
+								<p className="btn btn-dark btn-sm disabled  me-4">...</p>
 							</div>
 						</div>
 						<div className="mx-4 border-bottom">
-							<h3 className="font-monospace">Background</h3>
+							<h3 className="font-monospace">Experience</h3>
+							<div>
+								<h6 className="d-inline-flex mx-4 my-4">FULLSTACK DEVELOPER</h6>
+								<p className="d-inline-flex">(jan'21 - mar'21)</p>
+								<a
+									href="https://codeop.tech/"
+									target="_blank"
+									className="mx-4"
+									rel="CodeOp"
+								>
+									<img
+										className="logo"
+										src="./images/CodeOp.png"
+										alt="CodeOp"
+										rel="CodeOp"
+									/>
+								</a>
+								<p className="mx-4">
+									Intensive 11-week Bootcamp in which I developed three
+									full-stack apps during the course using the follwoing
+									technologies: <br />
+									React, React Router, Node, Express, Sequelize, MySQL, Axios,
+									JWT, Bcrypt, and deployed with Heroku. <br />
+									<br />
+									<span className="fw-bold">- BodyCultureBcn: </span>
+									MVP built in 1 week. WebApp for a personal trainer to organize
+									customers' information in order to prepare customized
+									trainings and follow the clients' progress. <br />
+									<br />
+									<span className="fw-bold">- DogRent: </span> Feature extension
+									project : 1 week working on inherited legacy code and added
+									user authentication with JWT.
+									<br />
+									<br />
+									<span className="fw-bold">- GroupIt!: </span> Group project
+									built together within an international team remotely in 2
+									weeks and a half. An app that allows users to organize their
+									online resources classified by their own interests, with the
+									possibility to set up different characteristics (if it is
+									completed or not, priority, reminders or deletion) Built with:
+								</p>
+							</div>
+						</div>
+						<div className="mx-4 border-bottom">
+							<h3 className="font-monospace my-4">Background</h3>
 							<div>
 								<h6 className="d-inline-flex mx-4 my-4">TECH RECRUITER</h6>
 								<p className="d-inline-flex">(mar'19 - dec'20)</p>
@@ -125,78 +173,25 @@ export default function Experience() {
 										rel="newWork"
 									/>
 								</a>
-								<ul>
-									<li>Job posts, Active sourcing, Screening, HR interviews.</li>
-									<li>
-										Interview Trainer encouraging our teams to manage technical
-										interviews with high-quality standards (good practices in
-										terms of recruitment).
-									</li>
-									<li>
-										Part of the international recruitment team responsible to
-										develop a standard recruitment process that works
-										cross-location (Hamburg, Porto, Valencia and Barcelona).
-									</li>
-									<li>
-										Support in HR, Employer Branding and Office Management.
-									</li>
-								</ul>
+								<p className="mx-4">
+									Helped the Barcelona office to keep growing having in mind
+									diversity and equity in our recruitment processes.
+									<br /> To achieve this purpose, we also implemented a training
+									process in which our software engineers were prepared to drive
+									interviews with the best practices in order to reduce biases
+									as much as possible. <br />
+									<br />I also was part of the international recruitment team
+									responsible for developing a standard recruitment process that
+									works cross-location taking into account the local needs for
+									each office (Hamburg, Porto, Valencia, and Barcelona). <br />
+									<br />
+									The best of this role was working in a cross-functional and
+									collaborative HR team, supporting each other in areas like
+									Employer Branding and Office Management while I was having
+									fun.
+								</p>
 							</div>
-							<div>
-								<h6 className="d-inline-flex mx-4 my-4">
-									IT RECRUITER CONSULTANT
-								</h6>
-								<p className="d-inline-flex">(sep'17 - feb'19)</p>
-								<a
-									href="https://akuaro.com/"
-									target="_blank"
-									className="mx-4"
-									rel="akuaro"
-								>
-									<img
-										className="logo"
-										src="./images/Akuaro.png"
-										alt="Akuaro"
-										rel="akuaro"
-									/>
-								</a>
-								<ul>
-									<li>
-										Working on several recruitment processes for different
-										clients having direct communication with them.
-									</li>
-									<li>
-										Profiles I worked on: Frontend, Backend and Full stack
-										developers, DevOps, Project Managers, Product Mangers,
-										Product Owners, Data Scientist, Data Engineers.
-									</li>
-								</ul>
-							</div>
-							<div>
-								<h6 className="d-inline-flex mx-4 my-4">
-									RECRUITER CONSUTLANT
-								</h6>
-								<p className="d-inline-flex">(nov'16 - sep'17)</p>
-								<a
-									href="https://www.mur-partners.com/en/"
-									target="_blank"
-									className="mx-4"
-									rel="murandmarti"
-								>
-									<img
-										className="logo"
-										src="./images/murandpartners.png"
-										alt="murandmarti"
-										rel="murandmarti"
-									/>
-								</a>
-								<ul>
-									<li>
-										Recruitment consultant for engineering companies
-										(automotive, chemical, IT, etc).
-									</li>
-								</ul>
-							</div>
+
 							<div>
 								<div>
 									{!showMore && (
@@ -214,6 +209,62 @@ export default function Experience() {
 									{showMore && (
 										<div>
 											<div>
+												<h6 className="d-inline-flex mx-4 my-4">
+													IT RECRUITER CONSULTANT
+												</h6>
+												<p className="d-inline-flex">(sep'17 - feb'19)</p>
+												<a
+													href="https://akuaro.com/"
+													target="_blank"
+													className="mx-4"
+													rel="akuaro"
+												>
+													<img
+														className="logo"
+														src="./images/Akuaro.png"
+														alt="Akuaro"
+														rel="akuaro"
+													/>
+												</a>
+												<p className="mx-4">
+													As a tech recruiter consultant, I was managing the
+													active sourcing and the screening of several hiring
+													processes of a bunch of companies reporting directly
+													to them. <br />
+													<br />
+													The main profiles I worked on were: Frontend, Backend,
+													and Full Stack developers, DevOps, Project Managers,
+													Product Managers, Product Owners, Data Scientist, Data
+													Engineers. <br />
+													<br />
+													Thanks to all the networking I did, I learnt how tech
+													market in Spain and Europe works.
+												</p>
+											</div>
+											<div>
+												<h6 className="d-inline-flex mx-4 my-4">
+													RECRUITER CONSUTLANT
+												</h6>
+												<p className="d-inline-flex">(nov'16 - sep'17)</p>
+												<a
+													href="https://www.mur-partners.com/en/"
+													target="_blank"
+													className="mx-4"
+													rel="murandmarti"
+												>
+													<img
+														className="logo"
+														src="./images/murandpartners.png"
+														alt="murandmarti"
+														rel="murandmarti"
+													/>
+												</a>
+												<p className="mx-4">
+													Recruitment consultant for engineering companies
+													(automotive, chemical, IT, etc).
+												</p>
+											</div>
+											<div>
 												<h6 className="d-inline-flex mx-4 my-4">RECRUITER</h6>
 												<p className="d-inline-flex">(oct'15 - oct'16)</p>
 												<a
@@ -229,13 +280,11 @@ export default function Experience() {
 														rel="GDHumanCapitalmarti"
 													/>
 												</a>
-												<ul>
-													<li>
-														Recruitment of payroll specialists, tax advisors,
-														layers, interns and some recruitment consultancy for
-														clients. (automotive, chemical, IT, etc).
-													</li>
-												</ul>
+												<p className="mx-4">
+													Recruitment of payroll specialists, tax advisors,
+													layers, interns and some recruitment consultancy for
+													clients.
+												</p>
 											</div>
 											<div>
 												<h6 className="d-inline-flex mx-4 my-4">
