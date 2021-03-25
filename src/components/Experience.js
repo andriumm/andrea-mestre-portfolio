@@ -325,7 +325,7 @@ export default function Experience() {
 											</div>
 											<div>
 												<h6 className="d-inline-flex mx-4 my-4">
-													PSHYCOLOGY Intern
+													PSYCHOLOGY Internships
 												</h6>
 												<p className="d-inline-flex">
 													(various Internships between sep'11 - jun'14)
