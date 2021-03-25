@@ -151,7 +151,7 @@ export default function Experience() {
 									weeks and a half. An app that allows users to organize their
 									online resources classified by their own interests, with the
 									possibility to set up different characteristics (if it is
-									completed or not, priority, reminders or deletion) Built with:
+									completed or not, priority, reminders or deletion).
 								</p>
 							</div>
 						</div>
