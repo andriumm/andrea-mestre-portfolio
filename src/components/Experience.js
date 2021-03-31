@@ -105,9 +105,6 @@ export default function Experience() {
 								<p className="badge bg-dark text-wrap me-4 fs-6">CSS</p>
 								<h5 className="font-monospace my-4">Coming</h5>
 								<p className="btn btn-dark btn-sm disabled me-4">Testing</p>
-								<p className="btn btn-dark btn-sm disabled me-4">Docker</p>
-								<p className="btn btn-dark btn-sm disabled me-4">GraphQL</p>
-								<p className="btn btn-dark btn-sm disabled  me-4">Redux</p>
 								<p className="btn btn-dark btn-sm disabled  me-4">...</p>
 							</div>
 						</div>
