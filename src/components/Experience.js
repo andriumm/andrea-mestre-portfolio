@@ -112,6 +112,28 @@ export default function Experience() {
 							<h3 className="font-monospace">Experience</h3>
 							<div>
 								<h6 className="d-inline-flex mx-4 my-4">FULLSTACK DEVELOPER</h6>
+								<p className="d-inline-flex">(may'21 - present)</p>
+								<a
+									href="https://www.thehotelsnetwork.com/es/"
+									target="_blank"
+									className="mx-4"
+									rel="theHotelsNetwork"
+								>
+									<img
+										className="logo"
+										src="./images/THN.jpeg"
+										alt="The Hotels Network"
+										rel="theHotelsNetwork"
+									/>
+								</a>
+								<p className="mx-4">
+									Giving technical support, fixing bugs, and writting some
+									snippets of code.
+									<br />
+								</p>
+							</div>
+							<div>
+								<h6 className="d-inline-flex mx-4 my-4">FULLSTACK DEVELOPER</h6>
 								<p className="d-inline-flex">(jan'21 - mar'21)</p>
 								<a
 									href="https://codeop.tech/"
