@@ -98,7 +98,6 @@ export default function Experience() {
 							<div className="mx-4 mb-4">
 								<p className="badge bg-dark text-wrap me-4 fs-6">JavaScript</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Vue.js</p>
-								<p className="badge bg-dark text-wrap me-4 fs-6">Node.js</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Jest</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Vue Testing Library</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Cypress</p>
@@ -126,7 +125,7 @@ export default function Experience() {
 									/>
 								</a>
 								<p className="mx-4">
-									Developing for our Client Success team a web application with Vue.js and Javascript and a lot of testing!
+									Developing for our Client Success team a web application with Vue.js, Javascript and a lot of testing!
 									<br />
 								</p>
 							</div>
