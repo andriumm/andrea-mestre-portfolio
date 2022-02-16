@@ -97,21 +97,20 @@ export default function Experience() {
 							<h3 className="font-monospace mb-4">Stack</h3>
 							<div className="mx-4 mb-4">
 								<p className="badge bg-dark text-wrap me-4 fs-6">JavaScript</p>
-								<p className="badge bg-dark text-wrap me-4 fs-6">React.js</p>
+								<p className="badge bg-dark text-wrap me-4 fs-6">Vue.js</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Node.js</p>
-								<p className="badge bg-dark text-wrap me-4 fs-6">Express.js</p>
-								<p className="badge bg-dark text-wrap me-4 fs-6">MySQL</p>
+								<p className="badge bg-dark text-wrap me-4 fs-6">Jest</p>
+								<p className="badge bg-dark text-wrap me-4 fs-6">Vue Testing Library</p>
+								<p className="badge bg-dark text-wrap me-4 fs-6">Cypress</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">HTML</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">CSS</p>
-								<h5 className="font-monospace my-4">Coming</h5>
-								<p className="btn btn-dark btn-sm disabled me-4">Testing</p>
-								<p className="btn btn-dark btn-sm disabled  me-4">...</p>
+								<h5 className="font-monospace my-4">And much more things to come...</h5>
 							</div>
 						</div>
 						<div className="mx-4 border-bottom">
 							<h3 className="font-monospace">Experience</h3>
 							<div>
-								<h6 className="d-inline-flex mx-4 my-4">FULLSTACK DEVELOPER</h6>
+								<h6 className="d-inline-flex mx-4 my-4">JUNIOR FRONTEND DEVELOPER</h6>
 								<p className="d-inline-flex">(may'21 - present)</p>
 								<a
 									href="https://www.thehotelsnetwork.com/es/"
@@ -127,8 +126,7 @@ export default function Experience() {
 									/>
 								</a>
 								<p className="mx-4">
-									Giving technical support, fixing bugs, and writting some
-									snippets of code.
+									Developing for our Client Success team a web application with Vue.js and Javascript and a lot of testing!
 									<br />
 								</p>
 							</div>
