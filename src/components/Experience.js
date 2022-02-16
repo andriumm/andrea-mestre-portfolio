@@ -26,11 +26,10 @@ export default function Experience() {
 						<h3 className="font-monospace text-center">About me</h3>
 						<p className="ms-4 my-4 fw-light lh-lg">
 							Now, Frontend developer! After being focused on tech recruitment
-							for the last 4 years in international environments, currently
-							willing to work on the "other side" of a software company. Working
-							both in Backend and Frontend to improve my skills in JavaScript,
-							React.js, Node.js and Express.js. Always open to learn different
-							technologies of course. ... And yes! I love cats!{" "}
+							for 4 years in international environments, currently
+							working on the "other side" of a software company. 
+							Always willing to learn. 
+							...And yes! I love cats!{" "}
 						</p>
 						<div className="mx-4 my-4">
 							<h3 className="font-monospace">Articles</h3>
