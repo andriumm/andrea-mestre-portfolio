@@ -26,9 +26,9 @@ export default function Experience() {
 						<h3 className="font-monospace text-center">About me</h3>
 						<p className="ms-4 my-4 fw-light lh-lg">
 							Now, Frontend developer! After being focused on tech recruitment
-							for 4 years in international environments, currently
-							working on the "other side" of a software company. 
-							Always willing to learn. 
+							for 4 years in international environments, currently working on
+							the "other side" of a software company. Always willing to learn.
+							<br />
 							...And yes! I love cats!{" "}
 						</p>
 						<div className="mx-4 my-4">
@@ -98,17 +98,23 @@ export default function Experience() {
 								<p className="badge bg-dark text-wrap me-4 fs-6">JavaScript</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Vue.js</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Jest</p>
-								<p className="badge bg-dark text-wrap me-4 fs-6">Vue Testing Library</p>
+								<p className="badge bg-dark text-wrap me-4 fs-6">
+									Vue Testing Library
+								</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">Cypress</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">HTML</p>
 								<p className="badge bg-dark text-wrap me-4 fs-6">CSS</p>
-								<h5 className="font-monospace my-4">And much more things to come...</h5>
+								<h5 className="font-monospace my-4">
+									And much more things to come...
+								</h5>
 							</div>
 						</div>
 						<div className="mx-4 border-bottom">
 							<h3 className="font-monospace">Experience</h3>
 							<div>
-								<h6 className="d-inline-flex mx-4 my-4">JUNIOR FRONTEND DEVELOPER</h6>
+								<h6 className="d-inline-flex mx-4 my-4">
+									JUNIOR FRONTEND DEVELOPER
+								</h6>
 								<p className="d-inline-flex">(may'21 - present)</p>
 								<a
 									href="https://www.thehotelsnetwork.com/es/"
@@ -124,7 +130,8 @@ export default function Experience() {
 									/>
 								</a>
 								<p className="mx-4">
-									Developing for our Client Success team a web application with Vue.js, Javascript and a lot of testing!
+									Developing for our Client Success team a web application with
+									Vue.js, Javascript and a lot of testing!
 									<br />
 								</p>
 							</div>
